@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cap {
+            color: blue;
+            background-color: yellow;
+        }
+
+        table {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption class="cap">ĐĂNG KÝ HỌC VIÊN</caption>
+        <br>
+        <tr>
+            <td>Họ và Tên</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Ngày Sinh</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Họ và Tên</td>
+            <td><input type="radio" value="nam" name="gioitinh">nam
+                <input type="radio" value="nu" name="gioitinh">nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Địa Chỉ</td>
+            <td><input class="adress" type="textarea"></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <table>
+                    <select name="lop" id="">
+                        <option value="choose">--Chọn lớp--</option>
+                        <option value="10">lớp 10</option>
+                        <option value="11">lớp 11</option>
+                        <option value="12">lớp 12</option>
+                    </select>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Điện Thoại</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Đăng Ký">
+                <input type="button" value="Đăng Nhập">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
